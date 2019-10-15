@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/search_Content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_Content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_Content1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <Button
+                android:id="@+id/btnSearch1"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/btnSearch" />
+
+            <Button
+                android:id="@+id/btnAll1"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/btnAll" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="320.0dip" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/btnAddNewText1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/addtext" />
+
+        <Button
+            android:id="@+id/btnAddNewVoice1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/addvoice" />
+
+        <Button
+            android:id="@+id/btnAddNewVideo1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/addvideo" />
+
+        <Button
+            android:id="@+id/btnReturn1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/myreturn" />
+
+    </LinearLayout>
+</LinearLayout>

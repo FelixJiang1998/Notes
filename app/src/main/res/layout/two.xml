@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/kbg2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/b" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dip"
+        android:gravity="center"
+        android:text="提示:长按列表项选择删除或修改该条记录"
+        android:textColor="#B22222"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dip"
+        android:gravity="center"
+        android:text="向左滑动页面"
+        android:textColor="#B22222"
+        android:textSize="17sp" />
+
+</RelativeLayout>

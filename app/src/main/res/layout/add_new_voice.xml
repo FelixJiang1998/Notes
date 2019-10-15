@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:text="@string/start_record" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_record" />
+
+        <Button
+            android:id="@+id/btnSaveReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_record" />
+
+        <Button
+            android:id="@+id/btnNoSaveReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_save_return" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnExit" />
+    </LinearLayout>
+
+
+</RelativeLayout>

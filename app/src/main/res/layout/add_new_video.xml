@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <SurfaceView
+        android:id="@+id/videoView"
+        android:layout_width="300dip"
+        android:layout_height="300dip" />
+
+    <!--
+    android:layout_alignParentBottom="true"
+     -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_toRightOf="@id/videoView"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_button_click_selector"
+            android:text="@string/start"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/my_button_click_selector"
+            android:text="@string/stop"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

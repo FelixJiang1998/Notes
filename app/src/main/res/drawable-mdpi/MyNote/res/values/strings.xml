@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ActivityMain!</string>
+    <string name="etnameinit">请输入记事名称</string>
+    <string name="etmaininit">请输入记事内容</string>
+    <string name="music">铃声列表</string>
+    <string name="app_name">语音备忘录</string>
+    <string name="addText">添加文本记录</string>
+    <string name="addVoice">添加语音记录</string>
+    <string name="btnSave">保存</string>
+    <string name="btnClean">清空</string>
+    <string name="btnExit">退出</string>
+    <string name="btnReturn">返回</string>
+    <string name="start_record">开始录音</string>
+    <string name="stop_record">结束录音</string>
+    <string name="save_record">保存录音</string>
+    <string name="no_save_return">不保存返回</string>
+    <string name="get_noteTime">获取时间</string>
+    <string name="search_Content">请输入关键字</string>
+    <string name="btnSearch">搜索</string>
+    <string name="btnAll">全部记录</string>
+</resources>
